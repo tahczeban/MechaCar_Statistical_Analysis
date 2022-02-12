@@ -11,6 +11,13 @@
 
 ## DELIVERABLE 1: Linear Regression to Predict MPG
 
+The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:
+
+The slope of the linear model is considered to be:
+
+The linear model does/not predict mpg of MecharCar ptototypes because:
+
+
 <img width="1440" alt="D1-Import MechCar_mpg" src="https://user-images.githubusercontent.com/90135381/153728155-5b0769cf-fc04-4128-b140-0ecc401824cb.png">
 
                               FIGURE 1: Import MechCar-mpg
