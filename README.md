@@ -91,6 +91,7 @@ lot 3 t-test:
 ## DELIVERABLE 4:Study Design: MechaCar vs Competition
 
 The MechaCar performs against the competition.... the metrics that would be of interest to the consumer are:
+
 -cost:
 -fuel efficiency:
 -horsepower:
