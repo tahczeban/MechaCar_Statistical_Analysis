@@ -11,12 +11,6 @@
 
 ## DELIVERABLE 1: Linear Regression to Predict MPG
 
-The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:
-
-The slope of the linear model is considered to be:
-
-The linear model does/not predict mpg of MecharCar ptototypes because:
-
 
 <img width="1440" alt="D1-Import MechCar_mpg" src="https://user-images.githubusercontent.com/90135381/153728155-5b0769cf-fc04-4128-b140-0ecc401824cb.png">
 
@@ -32,8 +26,14 @@ The linear model does/not predict mpg of MecharCar ptototypes because:
 
 
                               FIGURE 3: p-value and r squared
+                              
+***SUMMARY***
 
+The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:
 
+The slope of the linear model is considered to be:
+
+The linear model does/not predict mpg of MecharCar ptototypes because:
 
 ## DELIVERABLE 2:Summary Statistics on Suspension Coils
 
@@ -57,6 +57,10 @@ The linear model does/not predict mpg of MecharCar ptototypes because:
 
 
                               FIGURE 7: Suspension_Coil
+                              
+***SUMMARY***
+
+For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does/not meet this design specification for all lots in total and each lot individually because;
 
 
 ## DELIVERABLE 3:T-Tests on Suspension Coils
@@ -72,10 +76,33 @@ The linear model does/not predict mpg of MecharCar ptototypes because:
 
 
                             FIGURE 9: lots 1-3 stats
+                            
+***SUMMARY***
+
+The t-test results indicate the following: 
+sample t-test:
+
+lot 1 t-test:
+
+lot 2 t-test:
+
+lot 3 t-test:
 
 ## DELIVERABLE 4:Study Design: MechaCar vs Competition
 
+The MechaCar performs against the competition.... the metrics that would be of interest to the consumer are:
+-cost:
+-fuel efficiency:
+-horsepower:
+-maintenance:
+-safety:
 
-***SUMMARY***
+Metrics to test:
+Ho/Ha 
+tests to address hypothesis
+data required to run the statistical test
+
+
+
 
 ***REFERENCES*** BSC, Google, GitHub, StackOverflow
