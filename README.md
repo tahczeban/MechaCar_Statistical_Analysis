@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ***RESOURCES***
-Software: Jupyter notebook, VSC, R, RStudio, dplyr library
+Software:R, RStudio, dplyr library
 Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
 
 ***OVERVIEW***
@@ -43,6 +43,7 @@ The slope of the linear model is considered to be:
 The linear model does/not predict mpg of MecharCar ptototypes because:
 
 ## DELIVERABLE 2:Summary Statistics on Suspension Coils
+This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 4 through 7, tables were created in R representing the statistical data for total and lot summaries from the MechaCar_mpg and Suspension_Coil CSV's for the suspension coil's continuity across manufacturing lots and the PSI metrics for each lot (mean, median, variance and standard deviation).
 
 <img width="1440" alt="D2-total_summary" src="https://user-images.githubusercontent.com/90135381/153728186-db7bbd66-a867-411f-acf8-0fcdb085ae37.png">
 
