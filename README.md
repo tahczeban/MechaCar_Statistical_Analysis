@@ -42,8 +42,8 @@ The slope of the linear model is considered to be:
 
 The linear model does/not predict mpg of MecharCar ptototypes because:
 
-## DELIVERABLE 2:Summary Statistics on Suspension Coils
-This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 4 through 7, tables were created in R representing the statistical data for total and lot summaries from the MechaCar_mpg and Suspension_Coil CSV's for the suspension coil's continuity across manufacturing lots and the PSI metrics for each lot (mean, median, variance and standard deviation).
+## DELIVERABLE 2: Summary Statistics on Suspension Coils
+This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 4 through 7, tables were created in R representing the statistical data for total and lot summaries for the suspension coil's continuity across manufacturing lots. The PSI metrics for each lot; mean, median, variance and standard deviation, were calculated in a dataframe with group_by() and summarize() and formulated to tables.
 
 <img width="1440" alt="D2-total_summary" src="https://user-images.githubusercontent.com/90135381/153728186-db7bbd66-a867-411f-acf8-0fcdb085ae37.png">
 
@@ -71,7 +71,7 @@ This segment of the analysis addressed the Suspension_Coil.csv dataset and the r
 For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does/not meet this design specification for all lots in total and each lot individually because;
 
 
-## DELIVERABLE 3:T-Tests on Suspension Coils
+## DELIVERABLE 3: T-Tests on Suspension Coils
 
 
 <img width="1440" alt="D3-one sample t-test" src="https://user-images.githubusercontent.com/90135381/153728252-8c2595fe-6084-4025-98df-0a22332e86c0.png">
@@ -96,7 +96,7 @@ lot 2 t-test:
 
 lot 3 t-test:
 
-## DELIVERABLE 4:Study Design: MechaCar vs Competition
+## DELIVERABLE 4: Study Design: MechaCar vs Competition
 
 The MechaCar performs against the competition.... the metrics that would be of interest to the consumer are:
 
