@@ -1,9 +1,11 @@
 # MechaCar_Statistical_Analysis
 
 ***RESOURCES***
+Software: R, RStudio, dplyr library
+Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
 
 ***OVERVIEW***
-
+The purpose of this challenge 
 
 
 ***RESULTS***
