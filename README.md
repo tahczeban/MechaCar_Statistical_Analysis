@@ -1,13 +1,13 @@
 # MechaCar_Statistical_Analysis
 
 ***RESOURCES***
-Software: R, RStudio, dplyr library
+Software: Jupyter notebook, VSC, R, RStudio, dplyr library
 Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
 
 ***OVERVIEW***
 The purpose of this challenge was to assist Jeremy with the new protoyype MechaCar production troubles at AutosRUs. The analytical components addressed were as follows:
 - multiple linear regression analysis to predict the mpg (miles per gallon) for the MechaCar prototypes
-- perform summary statistics on the PSI (pounds per square inch) of the manufactures lots of suspension coils
+- perform summary statistics on the PSI (pounds per square inch) of the manufactured lots of suspension coils
 - perform t-tests to determine if the manufactured lots are stastically different from the mean
 - design a statistical study that compares the MechaCar's performance to that of other vehicles
 - perform a summary interpretation for each of the aforementioned statistical analyses
@@ -17,7 +17,7 @@ The purpose of this challenge was to assist Jeremy with the new protoyype MechaC
 For this analysis the datasets of two csv files were considered; the MechaCar_mpg.csv and the Suspension_Coil.csv. The analytical components were then broken down into 4 Deliverables with the inclusion of their respective summaries.
 
 ## DELIVERABLE 1: Linear Regression to Predict MPG
-
+The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaCars and their performance in terms of vehicle length, weight, spoiler angle, drivetrain and ground clearance. Subsequently, a predictive linear model of regression analysis was composed to determine the mpg of the MechaCar prototypes via RScript and the utilization of the lm() and summary() functions.
 
 <img width="1440" alt="D1-Import MechCar_mpg" src="https://user-images.githubusercontent.com/90135381/153728155-5b0769cf-fc04-4128-b140-0ecc401824cb.png">
 
