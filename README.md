@@ -5,7 +5,7 @@ Software: R, RStudio, dplyr library
 Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
 
 ***OVERVIEW***
-The purpose of this challenge was to assist Jeremy with the new protoyype MechaCar production troubles at AutosRUs. The analytical components addressed:
+The purpose of this challenge was to assist Jeremy with the new protoyype MechaCar production troubles at AutosRUs. The analytical components addressed were as follows:
 - multiple linear regression analysis to predict the mpg (miles per gallon) for the MechaCar prototypes
 - perform summary statistics on the PSI (pounds per square inch) of the manufactures ;ots of suspension coils
 - perform t-tests to determine if the manufactured lots are stastically different from the mean
