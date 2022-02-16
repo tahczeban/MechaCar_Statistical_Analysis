@@ -72,7 +72,7 @@ For this deliverable, consideration was taken to address the design specificatio
 
 
 ## DELIVERABLE 3: T-Tests on Suspension Coils
-T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RScript via the t.test() function with it's subset argument.
+T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RScript via the t.test() function with it's subset() argument.
 
 
 <img width="1440" alt="D3-one sample t-test" src="https://user-images.githubusercontent.com/90135381/153728252-8c2595fe-6084-4025-98df-0a22332e86c0.png">
@@ -98,7 +98,7 @@ lot 2 t-test:
 lot 3 t-test:
 
 ## DELIVERABLE 4: Study Design: MechaCar vs Competition
-
+A ststistical study was formulated to compare the performance of the MechaCar vehicles against the performance of other manufacturers.
 The MechaCar performs against the competition.... the metrics that would be of interest to the consumer are:
 
 -cost:
