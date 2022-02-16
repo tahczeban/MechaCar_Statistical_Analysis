@@ -17,7 +17,7 @@ The purpose of this challenge was to assist Jeremy with the new protoyype MechaC
 For this analysis the datasets of two csv files were considered; the MechaCar_mpg.csv and the Suspension_Coil.csv. The analytical components were then broken down into 4 Deliverables with the inclusion of their respective summaries.
 
 ## DELIVERABLE 1: Linear Regression to Predict MPG
-The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaCars and their performance in terms of vehicle length, weight, spoiler angle, drivetrain and ground clearance. Subsequently, a predictive linear model of regression analysis was composed to determine the mpg of the MechaCar prototypes via RScript and the utilization of the lm() and summary() functions.
+The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaCars and their performance in terms of vehicle length, weight, spoiler angle, drivetrain and ground clearance. Subsequently, a predictive linear model of regression analysis was composed to determine the mpg of the MechaCar prototypes via RScript and the utilization of the lm() and summary() functions, as depicted in FIGURES 1 through 3.
 
 <img width="1440" alt="D1-Import MechCar_mpg" src="https://user-images.githubusercontent.com/90135381/153728155-5b0769cf-fc04-4128-b140-0ecc401824cb.png">
 
