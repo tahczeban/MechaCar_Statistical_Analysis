@@ -72,6 +72,7 @@ For this deliverable, consideration was taken to address the design specificatio
 
 
 ## DELIVERABLE 3: T-Tests on Suspension Coils
+T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RScript via the t.test() function with it's subset argument.
 
 
 <img width="1440" alt="D3-one sample t-test" src="https://user-images.githubusercontent.com/90135381/153728252-8c2595fe-6084-4025-98df-0a22332e86c0.png">
@@ -85,7 +86,7 @@ For this deliverable, consideration was taken to address the design specificatio
 
                             FIGURE 9: lots 1-3 stats
                             
-***SUMMARY***
+***SUMMARY of T-Tests on Suspension Coils***
 
 The t-test results indicate the following: 
 sample t-test:
