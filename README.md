@@ -20,6 +20,7 @@ For this analysis the datasets of two csv files were considered; the MechaCar_mp
 
                               FIGURE 1: Import CSV Files
                               
+<img width="1440" alt="MechaCar_mpg" src="https://user-images.githubusercontent.com/90135381/153728216-93c379d7-29bc-4afe-b096-b0f62c143621.png">
 
                               FIGURE 2: MechaCar_mpg
 
@@ -69,7 +70,6 @@ This segment of the analysis addressed the Suspension_Coil.csv dataset and the r
 
                               FIGURE 7: lot_summary
 
-<img width="1440" alt="MechaCar_mpg" src="https://user-images.githubusercontent.com/90135381/153728216-93c379d7-29bc-4afe-b096-b0f62c143621.png">
 
 
 ***SUMMARY***
