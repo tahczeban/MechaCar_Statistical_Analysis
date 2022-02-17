@@ -88,8 +88,8 @@ T-Tests were then executed to determine if the total lots and the individual lot
 
                             FIGURE 8:  sample t-test
 
+<img width="1440" alt="Lots 1-3 with corrected population mean to 1500" src="https://user-images.githubusercontent.com/90135381/154585262-0c0bc7c2-7883-4d05-80d1-22779b6ccace.png">
 
-<img width="1440" alt="D3- lots 1-3  stats" src="https://user-images.githubusercontent.com/90135381/153728263-25b83cf4-1b13-4094-b41d-98bd10ba7e1f.png">
 
 
                             FIGURE 9: lots 1-3 stats
