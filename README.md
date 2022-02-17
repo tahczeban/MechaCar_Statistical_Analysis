@@ -36,12 +36,14 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
                               
 ***SUMMARY***
 
-The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:vehicle length and ground clearance have sig immpact on MechaCar mpg; however, weight, spoiler angle and AWD have p-values indicating random variance P-value=5.35e-11
+The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:vehicle length and ground clearance have sig impact on MechaCar mpg; however, weight, spoiler angle and AWD have p-values indicating random variance 
+smaller probability coefficient(Pr(>|t|)  for ground clearance, weight and length
+larger probability coefficient for AWD, spoiler angle
 
 
-The slope of the linear model is considered to be: not zero
+The slope of the linear model is considered to be: not zero P-value=5.35e-11 significantly less than 0.05
 
-The linear model does/not predict mpg of MecharCar ptototypes because:r-squared 0.7149, approx 71% of predictions will be representative
+The linear model does/not predict mpg of MecharCar ptototypes because:r-squared 0.7149, approx 71% of predictions will be representative, in range of 0-1
 
 ## DELIVERABLE 2: Summary Statistics on Suspension Coils
 This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 4 through 7, tables were created in R representing the statistical data for total and lot summaries for the suspension coil's continuity across manufacturing lots. The PSI metrics for each lot; mean, median, variance and standard deviation, were calculated in a dataframe with group_by() and summarize() and formulated to tables.
@@ -69,9 +71,10 @@ This segment of the analysis addressed the Suspension_Coil.csv dataset and the r
                               
 ***SUMMARY***
 
-For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does/not meet this design specification for all lots in total and each lot individually because;
-variance is 62.29 PSI for the ccoils, which is less than 100PSI
-ot 1(0.98) and 2(7.47) within 100 PSI
+For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does/not meet this design specification for all lots in total and each lot individually because:
+total variance_PSI is 62.29 for the coils, which is less than 100PSI
+lot 1(0.98) and 2(7.47) within 100 PSI
+lot 3 shows greater variance(170.29), sig higher than 100 PSI
 
 ## DELIVERABLE 3: T-Tests on Suspension Coils
 T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RScript via the t.test() function with it's subset() argument.
@@ -91,18 +94,18 @@ T-Tests were then executed to determine if the total lots and the individual lot
 ***SUMMARY of T-Tests on Suspension Coils***
 
 The t-test results indicate the following: 
-sample t-test:
+sample t-test: mean 1498.78, p-value 0.06 greater than CI 0.05, dont reject Ho
 
-lot 1 t-test:
+lot 1 t-test: mean 1,500, p-value 1 cannot reject Ho
 
-lot 2 t-test:
+lot 2 t-test: mean 1500.02, p-value 0.61, dont reject Ho
 
-lot 3 t-test:
+lot 3 t-test:mean is 1496.14, p-value 0.04, less than 0.05, reject Ho, sample and pop mean are not stat difft
 
 ## DELIVERABLE 4: Study Design: MechaCar vs Competition
 A ststistical study was formulated to compare the performance of the MechaCar vehicles against the performance of other manufacturers.
 The MechaCar performs against the competition.... the metrics that would be of interest to the consumer are:
-
+randomly selectes sample size with adequate sample number
 -cost:
 -fuel efficiency:
 -horsepower:
@@ -110,8 +113,9 @@ The MechaCar performs against the competition.... the metrics that would be of i
 -safety:
 
 Metrics to test:
-Ho/Ha 
-tests to address hypothesis
+H0
+Ha
+tests to address hypothesis: t-test
 data required to run the statistical test
 
 
