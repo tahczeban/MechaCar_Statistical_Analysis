@@ -36,11 +36,12 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
                               
 ***SUMMARY***
 
-The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:
+The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:vehicle length and ground clearance have sig immpact on MechaCar mpg; however, weight, spoiler angle and AWD have p-values indicating random variance P-value=5.35e-11
 
-The slope of the linear model is considered to be:
 
-The linear model does/not predict mpg of MecharCar ptototypes because:
+The slope of the linear model is considered to be: not zero
+
+The linear model does/not predict mpg of MecharCar ptototypes because:r-squared 0.7149, approx 71% of predictions will be representative
 
 ## DELIVERABLE 2: Summary Statistics on Suspension Coils
 This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 4 through 7, tables were created in R representing the statistical data for total and lot summaries for the suspension coil's continuity across manufacturing lots. The PSI metrics for each lot; mean, median, variance and standard deviation, were calculated in a dataframe with group_by() and summarize() and formulated to tables.
@@ -69,7 +70,8 @@ This segment of the analysis addressed the Suspension_Coil.csv dataset and the r
 ***SUMMARY***
 
 For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does/not meet this design specification for all lots in total and each lot individually because;
-
+variance is 62.29 PSI for the ccoils, which is less than 100PSI
+ot 1(0.98) and 2(7.47) within 100 PSI
 
 ## DELIVERABLE 3: T-Tests on Suspension Coils
 T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RScript via the t.test() function with it's subset() argument.
