@@ -116,7 +116,7 @@ Metrics to test:
 H0
 Ha
 tests to address hypothesis: t-test
-data required to run the statistical test
+data required to run the statistical test random sample with MechaCar and other vehicleas. p-value 0.05, 95% CI level
 
 
 
