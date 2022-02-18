@@ -96,13 +96,14 @@ T-Tests were then executed to determine if the total lots and the individual lot
 
 The summarized t-test results indicate the following for the overall and individual manufacturung lots: 
 
-- In FIGURE:8 the sample t-test was calculated and the following statistical data was compiled: mean of 1498.78 with a p-value of 0.06, which is greater than the significance level of 0.05. This means that the overall sample statistically approximates the population mean of 1500 PSI; therefore, the null hypothesis(Ho) should not be rejected.
+- In FIGURE:8 the overall sample t-test was calculated and the following statistical data was compiled: mean of 1498.78, with a p-value of 0.06, which is greater than 0.05, indicating no statistical difference. This means that the overall sample statistically approximates the population mean of 1500 PSI; therefore, the null hypothesis(Ho) should not be rejected.
 - The remainder of the Lots and their respective analyses are illustrated in FIGURE 9:
-lot 1 t-test: mean is 1500 the p-value of 1 indicates that the population and sample means of 1,500 PSI have no statistical difference between the two; therefore, the null hypothesis cannot be rejected. 
+ 
+- lot 1 t-test: mean is 1500, the p-value of 1 indicates that the population and sample means of 1,500 PSI have no statistical difference between the two; therefore, the null hypothesis cannot be rejected. 
 
-lot 2 t-test: mean 1500.02, p-value 0.61, dont reject Ho
+-lot 2 t-test: the mean is 1500.02 and the p-value is 0.61, which, again is greater than the alpha of 0.05; therefore, the Ho is not rejected.
 
-lot 3 t-test:mean is 1496.14, p-value 0.04, less than 0.05, reject Ho, sample and pop mean are not stat difft
+-lot 3 t-test:mean is 1496.14, p-value 0.04, which is less than 0.05, hence, indicating a statistical difference exists and the Ho  can be rejected.
 
 ## DELIVERABLE 4: Study Design: MechaCar vs Competition
 An additional statistical study was formulated to further compare the performance of the MechaCar vehicles against the performance of other manufacturer's vehicles. For a significant quantifiable analysis, it would be imperative that an adequate random sample size is chosen. A null(Ho) and alternative(Ha) hypothesis would then have to be generated and the appropriate analytical testing would be performed. Some of the additional metrics that would be of interest to both the manufacturer and the consumer are: cost, highway versus city fuel efficiency, horsepower and maintenance, to which a t-test could be executed for identifying the positive attributes for each, for comparison between manufacturer types. For the purpose of this study, however; safety rating can also be considered and emphasized and a t-test could be performed, as the statistics for this particular metric could be imperative to the mortality and morbidity rates of the users of the various types of vehicles. Due to the numerous components that could posssibly effect safety rating, one statistical investigation could include the integrity of the frame and it's materials/construction during collisions. The independent variable being the frame construction and the dependent variable being the safety rating, in terms of force of impact to test dummy driver with front and side impact tests.
