@@ -48,9 +48,10 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
                               
 ***SUMMARY***
 
-The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are:vehicle length and ground clearance have sig impact on MechaCar mpg; however, weight, spoiler angle and AWD have p-values indicating random variance 
-smaller probability coefficient(Pr(>|t|)  for ground clearance, weight and length
-larger probability coefficient for AWD, spoiler angle
+The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are: vehicle length and ground clearance have sig impact on MechaCar mpg; however, weight, spoiler angle and AWD have p-values indicating random variance 
+smaller probability coefficient(Pr(>|t|) for ground clearance, weight and length
+larger probability coefficient for AWD, spoiler angle, as depicted in FIGURES 4 and 5.
+
 
 
 The slope of the linear model is considered to be: not zero P-value=5.35e-11 significantly less than 0.05% fpr CI (confidence level)
