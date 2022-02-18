@@ -52,7 +52,7 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
 
 2. The slope of the linear model is considered to be 'not zero', as the P-value = 5.35e-11, which is significantly less than the accepted norm of 0.05% confidence level. While some of the values are approximated to zero, there are no zero values; therefore, indicating a slope on the regression model.
 
-3.The linear model does predict mpg of MechaCar prototypes due to the fact that the r-squared is 0.7149, which indicates approximately 71% of predictions will be representative of the correlation of this statistical model.
+3. The linear model does predict mpg of MechaCar prototypes due to the fact that the r-squared is 0.7149, which indicates approximately 71% of predictions will be representative of the correlation of this statistical model.
 
 ## DELIVERABLE 2: Summary Statistics on Suspension Coils
 This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 6 and 7, tables were created in R representing the statistical data for total and lot summaries for the suspension coil's continuity across manufacturing lots. The PSI metrics for each lot; mean, median, variance and standard deviation, were calculated in a dataframe with group_by() and summarize() and formulated to tables.
@@ -101,7 +101,7 @@ The summarized t-test results indicate the following for the overall and individ
 - In FIGURE:8 the overall sample t-test was calculated and the following statistical data was compiled: mean of 1498.78, with a p-value of 0.06, which is greater than 0.05, indicating no statistical difference. This means that the overall sample statistically approximates the population mean of 1500 PSI; therefore, the null hypothesis(Ho) should not be rejected.
 - The remainder of the Lots and their respective analyses are illustrated in FIGURE 9:
  
-- lot 1 t-test: mean is 1500, the p-value of 1 indicates that the population and sample means of 1,500 PSI have no statistical difference between the two; therefore, the null hypothesis cannot be rejected. 
+-lot 1 t-test: mean is 1500, the p-value of 1 indicates that the population and sample means of 1,500 PSI have no statistical difference between the two; therefore, the null hypothesis cannot be rejected. 
 
 -lot 2 t-test: the mean is 1500.02 and the p-value is 0.61, which, again is greater than the alpha of 0.05; therefore, the Ho is not rejected.
 
