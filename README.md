@@ -77,7 +77,7 @@ For this deliverable, consideration was taken to address the design specificatio
 
 -lot 1(0.98) and 2(7.47) variances are, respectively, within 100 PSI tolerance; therefore, MEETS criteria
 
--lot 3 shows greater variance(170.29), which is significantly higher than 100 PSI; therefore, DOES NOT MEET criteria
+-lot 3 shows greater variance(170.29), which is significantly higher than the allotted 100 PSI requirement; therefore, DOES NOT MEET criteria
 
 ## DELIVERABLE 3: T-Tests on Suspension Coils
 T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RStudio via the t.test() function with it's subset() argument.
