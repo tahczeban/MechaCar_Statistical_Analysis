@@ -48,11 +48,11 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
                               
 ***SUMMARY***
 
-1. The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are: vehicle length and ground clearance significantly impact the MechaCar's mpg; however, weight, spoiler angle and AWD have p-values indicating random variance. There is a smaller probability coefficient(Pr(>|t|) for ground clearance and weight, while a larger probability coefficient is representative for AWD, spoiler angle and length, as depicted in FIGURES 4 and 5. 
+1. The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are: vehicle length and ground clearance significantly impact the MechaCar's mpg; however, weight, spoiler angle and AWD have p-values indicating random variance. There is a smaller probability coefficient(Pr(>|t|) for ground clearance and weight, while a larger probability coefficient and random variance are representative for AWD, spoiler angle and length, as depicted in FIGURES 4 and 5. 
 
-2. The slope of the linear model is considered to be not zero P-value = 5.35e-11, which is significantly less than the accepted norm of 0.05%. While some of the values are approximated to zero, there are no zero values; therefore, indicating a slope on the regression model.
+2. The slope of the linear model is considered to be 'not zero', as the P-value = 5.35e-11, which is significantly less than the accepted norm of 0.05% confidence level. While some of the values are approximated to zero, there are no zero values; therefore, indicating a slope on the regression model.
 
-3.The linear model does predict mpg of MecharCar ptototypes because:r-squared 0.7149, approx 71% of predictions will be representative, in range of 0-1
+3.The linear model does predict mpg of MechaCar ptototypes due to the fact that the r-squared is 0.7149, which indicates approximately 71% of predictions will be representative of the correlation of this statistical model.
 
 ## DELIVERABLE 2: Summary Statistics on Suspension Coils
 This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 6 and 7, tables were created in R representing the statistical data for total and lot summaries for the suspension coil's continuity across manufacturing lots. The PSI metrics for each lot; mean, median, variance and standard deviation, were calculated in a dataframe with group_by() and summarize() and formulated to tables.
@@ -71,10 +71,10 @@ This segment of the analysis addressed the Suspension_Coil.csv dataset and the r
 
 ***SUMMARY***
 
-For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does/not meet this design specification for all lots in total and each lot individually because:
-total variance_PSI is 62.29 for the coils, which is less than 100PSI
-lot 1(0.98) and 2(7.47) within 100 PSI
-lot 3 shows greater variance(170.29), sig higher than 100 PSI
+For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does not meet this design specification for ALL lots in terms of total and individual lot summaries, as Lot#3 exceeds the value of 100 PSI, as summarized below: 
+-total variance_PSI is 62.29 for the coils, which is less than 100PSI; therefore MEETS criteria
+-lot 1(0.98) and 2(7.47) within 100 PSI; therefore, MEETS criteria
+-lot 3 shows greater variance(170.29), which is significantly higher than 100 PSI; therefore, DOE NOT MEET criteria
 
 ## DELIVERABLE 3: T-Tests on Suspension Coils
 T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RScript via the t.test() function with it's subset() argument.
