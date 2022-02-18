@@ -48,15 +48,11 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
                               
 ***SUMMARY***
 
-The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are: vehicle length and ground clearance have sig impact on MechaCar mpg; however, weight, spoiler angle and AWD have p-values indicating random variance 
-smaller probability coefficient(Pr(>|t|) for ground clearance, weight and length
-larger probability coefficient for AWD, spoiler angle, as depicted in FIGURES 4 and 5.
+1. The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are: vehicle length and ground clearance significantly impact the MechaCar's mpg; however, weight, spoiler angle and AWD have p-values indicating random variance. There is a smaller probability coefficient(Pr(>|t|) for ground clearance and weight, while a larger probability coefficient is representative for AWD, spoiler angle and length, as depicted in FIGURES 4 and 5. 
 
+2. The slope of the linear model is considered to be not zero P-value = 5.35e-11, which is significantly less than the accepted norm of 0.05%. While some of the values are approximated to zero, there are no zero values; therefore, indicating a slope on the regression model.
 
-
-The slope of the linear model is considered to be: not zero P-value=5.35e-11 significantly less than 0.05% fpr CI (confidence level)
-
-The linear model does/not predict mpg of MecharCar ptototypes because:r-squared 0.7149, approx 71% of predictions will be representative, in range of 0-1
+3.The linear model does predict mpg of MecharCar ptototypes because:r-squared 0.7149, approx 71% of predictions will be representative, in range of 0-1
 
 ## DELIVERABLE 2: Summary Statistics on Suspension Coils
 This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 6 and 7, tables were created in R representing the statistical data for total and lot summaries for the suspension coil's continuity across manufacturing lots. The PSI metrics for each lot; mean, median, variance and standard deviation, were calculated in a dataframe with group_by() and summarize() and formulated to tables.
