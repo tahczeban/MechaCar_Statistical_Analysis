@@ -108,17 +108,13 @@ lot 3 t-test:mean is 1496.14, p-value 0.04, less than 0.05, reject Ho, sample an
 
 ## DELIVERABLE 4: Study Design: MechaCar vs Competition
 A ststistical study was formulated to compare the performance of the MechaCar vehicles against the performance of other manufacturers.
-The MechaCar performs against the competition.... the metrics that would be of interest to the consumer are:
+The MechaCar performs against the competition.... 
 randomly selectes sample size with adequate sample number
--cost:
--fuel efficiency:
--horsepower:
--maintenance:
--safety:
+Some of the additional metrics that would be of interest to both the manufacturer and the consumer are: cost, highway versus city fuel efficiency, horsepower and maintenance. For the purpose of this study; however,safety can also be considered and emphasized: a two-tailed t-test could be performed, as the consideration of positive and negative statistics for this metric could be imperative to mortality and morbidity of the users of the various types of vehicles.
 
 Metrics to test:
-H0
-Ha
+H0(null hypothesis)
+Ha(alternative hypothesis) 
 tests to address hypothesis: t-test
 data required to run the statistical test random sample with MechaCar and other vehicleas. p-value 0.05, 95% CI level
 
