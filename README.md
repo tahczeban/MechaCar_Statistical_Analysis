@@ -107,15 +107,10 @@ lot 2 t-test: mean 1500.02, p-value 0.61, dont reject Ho
 lot 3 t-test:mean is 1496.14, p-value 0.04, less than 0.05, reject Ho, sample and pop mean are not stat difft
 
 ## DELIVERABLE 4: Study Design: MechaCar vs Competition
-A ststistical study was formulated to compare the performance of the MechaCar vehicles against the performance of other manufacturers.
-The MechaCar performs against the competition.... 
-randomly selectes sample size with adequate sample number
-Some of the additional metrics that would be of interest to both the manufacturer and the consumer are: cost, highway versus city fuel efficiency, horsepower and maintenance. For the purpose of this study; however,safety can also be considered and emphasized: a two-tailed t-test could be performed, as the consideration of positive and negative statistics for this metric could be imperative to mortality and morbidity of the users of the various types of vehicles.
-
-Metrics to test:
+An additional statistical study was formulated to further compare the performance of the MechaCar vehicles against the performance of other manufacturer's vehicles. For a significant quantifiable analysis, it would be imperative that an adequate random sample size is chosen. A null(Ho) and alternative(Ha) hypothesis would then have to be generated and the appropriate analytical testing would be performed. Some of the additional metrics that would be of interest to both the manufacturer and the consumer are: cost, highway versus city fuel efficiency, horsepower and maintenance, to which a 1-tailed t-test could be executed for identifying the positive attributes for each for comparison. For the purpose of this study; however, safety can also be considered and emphasized: a two-tailed t-test could be performed, as the consideration of positive and negative statistics for this particular metric could be imperative to the mortality and morbidity rates of the users of the various types of vehicles. Due to the numerous components that could posssibly effect safety, 
 H0(null hypothesis)
 Ha(alternative hypothesis) 
-tests to address hypothesis: t-test
+
 data required to run the statistical test random sample with MechaCar and other vehicleas. p-value 0.05, 95% CI level
 
 
