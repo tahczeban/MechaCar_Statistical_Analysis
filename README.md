@@ -72,6 +72,7 @@ This segment of the analysis addressed the Suspension_Coil.csv dataset and the r
 ***SUMMARY***
 
 For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does not meet this design specification for ALL lots in terms of total and individual lot summaries, as Lot#3 exceeds the value of 100 PSI, as summarized below: 
+
 -total variance_PSI is 62.29 for the coils, which is less than 100PSI; therefore MEETS criteria
 -lot 1(0.98) and 2(7.47) within 100 PSI; therefore, MEETS criteria
 -lot 3 shows greater variance(170.29), which is significantly higher than 100 PSI; therefore, DOE NOT MEET criteria
@@ -93,19 +94,20 @@ T-Tests were then executed to determine if the total lots and the individual lot
                             
 ***SUMMARY of T-Tests on Suspension Coils***
 
-The t-test results indicate the following: 
-sample t-test: mean 1498.78, p-value 0.06 greater than CI 0.05, dont reject Ho (FIGURE: 8)
+The summarized t-test results indicate the following for the overall and individual manufacturung lots: 
 
-(FIGURE 9)lot 1 t-test: mean 1,500, p-value 1 cannot reject Ho
+- In FIGURE:8 the sample t-test was calculated and the following statistical data was compiled: mean of 1498.78 with a p-value of 0.06, which is greater than the significance level of 0.05. This means that the overall sample statistically approximates the population mean of 1500 PSI; therefore, the null hypothesis(Ho) should not be rejected.
+- The remainder of the Lots and their respective analyses are illustrated in FIGURE 9:
+lot 1 t-test: mean is 1500 the p-value of 1 indicates that the population and sample means of 1,500 PSI have no statistical difference between the two; therefore, the null hypothesis cannot be rejected. 
 
 lot 2 t-test: mean 1500.02, p-value 0.61, dont reject Ho
 
 lot 3 t-test:mean is 1496.14, p-value 0.04, less than 0.05, reject Ho, sample and pop mean are not stat difft
 
 ## DELIVERABLE 4: Study Design: MechaCar vs Competition
-An additional statistical study was formulated to further compare the performance of the MechaCar vehicles against the performance of other manufacturer's vehicles. For a significant quantifiable analysis, it would be imperative that an adequate random sample size is chosen. A null(Ho) and alternative(Ha) hypothesis would then have to be generated and the appropriate analytical testing would be performed. Some of the additional metrics that would be of interest to both the manufacturer and the consumer are: cost, highway versus city fuel efficiency, horsepower and maintenance, to which a 1-tailed t-test could be executed for identifying the positive attributes for each, for comparison between manufacturer types. For the purpose of this study, however; safety rating can also be considered and emphasized and a t-test could be performed, as the statistics for this particular metric could be imperative to the mortality and morbidity rates of the users of the various types of vehicles. Due to the numerous components that could posssibly effect safety rating, one statistical investigation could include the integrity of the frame and it's materials/construction during collisions. The independent variable being the frame construction and the dependent variable being the safety rating, in terms of force of impact to test dummy with front and side impact tests.
+An additional statistical study was formulated to further compare the performance of the MechaCar vehicles against the performance of other manufacturer's vehicles. For a significant quantifiable analysis, it would be imperative that an adequate random sample size is chosen. A null(Ho) and alternative(Ha) hypothesis would then have to be generated and the appropriate analytical testing would be performed. Some of the additional metrics that would be of interest to both the manufacturer and the consumer are: cost, highway versus city fuel efficiency, horsepower and maintenance, to which a t-test could be executed for identifying the positive attributes for each, for comparison between manufacturer types. For the purpose of this study, however; safety rating can also be considered and emphasized and a t-test could be performed, as the statistics for this particular metric could be imperative to the mortality and morbidity rates of the users of the various types of vehicles. Due to the numerous components that could posssibly effect safety rating, one statistical investigation could include the integrity of the frame and it's materials/construction during collisions. The independent variable being the frame construction and the dependent variable being the safety rating, in terms of force of impact to test dummy driver with front and side impact tests.
 In order to conduct the hypothesis testing, the mean, median, variance, standard deviation and respective p-values/confidence levels at 95% would be formulated, in conjunction with the null and alternative hypotheses:
-1. H0(null hypothesis): There is no difference in safety rating (force of impact on test dummy) between the MechaCar and other vehicles' safety due to frame construction and materials.
+1. H0(null hypothesis): There is no difference in safety rating (force of impact on test dummy driver) between the MechaCar and other vehicles' safety due to frame construction and materials.
 2. Ha(alternative hypothesis): The MechaCar's safety rating is statistically and significantly greater than the mean of the competing manufacturer's vehicles, due to frame construction and materials.
 
 ***REFERENCES*** BSC, Google, GitHub, StackOverflow
