@@ -115,4 +115,6 @@ In order to conduct the hypothesis testing, the mean, median, variance, standard
 
 2. Ha(alternative hypothesis): The MechaCar's safety rating is statistically and significantly greater than the mean of the competing manufacturer's vehicles, due to frame construction and materials.
 
+After the statistical analysis is complete, the null hypothesis can either be rejected (optimal), or fail to be rejected to determine the comparative safety rating of the MechaCar. 
+
 ***REFERENCES*** BSC, Google, GitHub, StackOverflow
