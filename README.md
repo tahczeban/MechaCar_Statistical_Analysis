@@ -73,9 +73,9 @@ This segment of the analysis addressed the Suspension_Coil.csv dataset and the r
 
 For this deliverable, consideration was taken to address the design specifications for the MechaCar suspension coils and their variance not exceeding 100PSI. The current manufacturing data does not meet this design specification for ALL lots in terms of total and individual lot summaries, as Lot#3 exceeds the value of 100 PSI, as summarized below: 
 
--total variance_PSI is 62.29 for the coils, which is less than 100PSI; therefore MEETS criteria
+-total variance_PSI is 62.29 for the coils, which is less than the 100PSI requirement; therefore MEETS criteria
 
--lot 1(0.98) and 2(7.47) are, respectively, within 100 PSI; therefore, MEETS criteria
+-lot 1(0.98) and 2(7.47) variances are, respectively, within 100 PSI tolerance; therefore, MEETS criteria
 
 -lot 3 shows greater variance(170.29), which is significantly higher than 100 PSI; therefore, DOES NOT MEET criteria
 
