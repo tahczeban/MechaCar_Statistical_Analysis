@@ -1,9 +1,15 @@
 # MechaCar_Statistical_Analysis
+_______________________________
+
+![image](https://user-images.githubusercontent.com/90135381/158720848-50278832-713f-43c8-ad7d-5e2d22359596.jpeg)
+
+
 
 ***RESOURCES***
 Software:R, RStudio, dplyr library
 Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
-
+IMAGE: obtained from: https://www.cleanpng.com/png-cartoon-car-15096/
+______________
 ***OVERVIEW***
 The purpose of this challenge was to assist Jeremy with the new protoyype MechaCar production troubles at AutosRUs. The analytical components addressed were as follows:
 - multiple linear regression analysis to predict the mpg (miles per gallon) for the MechaCar prototypes
@@ -12,8 +18,9 @@ The purpose of this challenge was to assist Jeremy with the new protoyype MechaC
 - design a statistical study that compares the MechaCar's performance to that of other vehicles
 - perform a summary interpretation for each of the aforementioned statistical analyses
 
-
+_____________
 ***RESULTS***
+
 For this analysis the datasets of two csv files were considered; the MechaCar_mpg.csv and the Suspension_Coil.csv which were imported into RStudio (FIGURES: 1 through 3). The analytical components were then broken down into 4 Deliverables with the inclusion of their respective summaries.
 
 <img width="1440" alt="D1-Import MechCar_mpg" src="https://user-images.githubusercontent.com/90135381/153728155-5b0769cf-fc04-4128-b140-0ecc401824cb.png">
@@ -45,7 +52,7 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
 
 
                               FIGURE 5: p-value and r squared
-                              
+                            
 ***SUMMARY***
 
 1. The variables/coefficients which provided a non-random amount of variance to the mpg values in the dataset are: vehicle length and ground clearance significantly impact the MechaCar's mpg; however, weight, spoiler angle and AWD have p-values indicating random variance. There is a smaller probability coefficient(Pr(>|t|) for ground clearance and weight, while a larger probability coefficient and random variance are representative for AWD, spoiler angle and length, as depicted in FIGURES 4 and 5. 
@@ -54,6 +61,7 @@ The MechaCar_,mpg.csv dataset contained the test results for 50 prototype MechaC
 
 3. The linear model does predict mpg of MechaCar prototypes due to the fact that the r-squared is 0.7149, which indicates approximately 71% of predictions will be representative of the correlation of this statistical model.
 
+____________________________________
 ## DELIVERABLE 2: Summary Statistics on Suspension Coils
 This segment of the analysis addressed the Suspension_Coil.csv dataset and the results from multiple production lots, in terms of the consistency of weight capacities. As illustrated in FIGURES: 6 and 7, tables were created in R representing the statistical data for total and lot summaries for the suspension coil's continuity across manufacturing lots. The PSI metrics for each lot; mean, median, variance and standard deviation, were calculated in a dataframe with group_by() and summarize() and formulated to tables.
 
@@ -79,6 +87,7 @@ For this deliverable, consideration was taken to address the design specificatio
 
 -lot 3 shows greater variance(170.29), which is significantly higher than the allotted 100 PSI requirement; therefore, DOES NOT MEET criteria
 
+_________________
 ## DELIVERABLE 3: T-Tests on Suspension Coils
 T-Tests were then executed to determine if the total lots and the individual lots were statistically different from the population mean of 1,500 PSI. This was completed in RStudio via the t.test() function with it's subset() argument.
 
@@ -107,6 +116,7 @@ The summarized t-test results indicate the following for the overall and individ
 
 -lot 3 t-test:mean is 1496.14, p-value 0.04, which is less than 0.05, hence, indicating a statistical difference exists and the Ho  can be rejected.
 
+________________
 ## DELIVERABLE 4: Study Design: MechaCar vs Competition
 An additional statistical study was formulated to further compare the performance of the MechaCar vehicles against the performance of other manufacturer's vehicles. For a significant quantifiable analysis, it would be imperative that an adequate random sample size is chosen. A null(Ho) and alternative(Ha) hypothesis would then have to be generated and the appropriate analytical testing would be performed. Some of the additional metrics that would be of interest to both the manufacturer and the consumer are: cost, highway versus city fuel efficiency, horsepower and maintenance, to which a t-test could be executed for identifying the positive attributes for each, for comparison between manufacturer types. For the purpose of this study, however; safety rating can also be considered and emphasized and a t-test could be performed, as the statistics for this particular metric could be imperative to the mortality and morbidity rates of the users of the various types of vehicles. Due to the numerous components that could posssibly effect safety rating, one statistical investigation could include the integrity of the frame and it's materials/construction during collisions. The independent variable being the frame construction and the dependent variable being the safety rating, in terms of force of impact to test dummy driver with front and side impact tests.
 In order to conduct the hypothesis testing, the mean, median, variance, standard deviation and respective p-values/confidence levels at 95% would be formulated, in conjunction with the following null and alternative hypotheses:
