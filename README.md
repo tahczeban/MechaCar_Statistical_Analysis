@@ -1,14 +1,14 @@
 # MechaCar_Statistical_Analysis
 _______________________________
 
-![image](https://user-images.githubusercontent.com/90135381/158720848-50278832-713f-43c8-ad7d-5e2d22359596.jpeg)
 
 
+![image](https://user-images.githubusercontent.com/90135381/158726151-1549f581-6592-476c-b709-843037698719.jpeg)
 
 ***RESOURCES***
 Software:R, RStudio, dplyr library
 Data Sources: MechaCar_mpg.csv, Suspension_Coil.csv
-IMAGE: obtained from: https://www.cleanpng.com/png-cartoon-car-15096/
+IMAGE: obtained from:https://www.pngwing.com/en/free-png-bleiq
 ______________
 ***OVERVIEW***
 The purpose of this challenge was to assist Jeremy with the new protoyype MechaCar production troubles at AutosRUs. The analytical components addressed were as follows:
